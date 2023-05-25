@@ -40,8 +40,8 @@ body{
     font-weight: bold;
     color: red;
 }
-/*
 .Hidden{
+    position: absolute;
     width: 40px;
     height: 40px;
     background-color: gray;
@@ -51,4 +51,7 @@ body{
     border-right:2px solid black;
     border-bottom: 2px solid black;
 }
-*/
+.Hidden:hover{
+    opacity: 0;
+}
+
