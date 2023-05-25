@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container{
+    border: 10px solid gray;
+    background-color: lightgrey;
+    border: 6mm ridge lightgray;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+}
+.Blue,.Green,.Red,.Nothing,.Bomb{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 40px;
+    height: 40px;
+    line-height: 2.2;
+    border-bottom: 2px black dotted;
+    border-right: 2px black dotted;
+}
+.Blue{
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+}
+.Green{
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+}
+.Red{
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+/*
+.Hidden{
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border-width: 1px;
+    border-style: inset;
+    border-color: white;
+    border-right:2px solid black;
+    border-bottom: 2px solid black;
+}
+*/
